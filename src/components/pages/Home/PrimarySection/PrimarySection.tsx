@@ -49,6 +49,28 @@ const PrimarySection: FC = () => {
 
   </div>
 </article>
+      
+      <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+  <h1 className="text-center">ChatGPT AI Content Detector</h1>
+
+<textarea
+  className="w-full p-30 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
+  style={{ height: "300px" }}
+  placeholder="Enter your document text here"
+></textarea>
+  <div className="flex justify-between mt-4">
+    <Link href="/#form" scroll={false}>
+      <Button primary>
+        Detect Text <Arrow />
+      </Button>
+    </Link>
+    
+    <Button className="bg-gray-300 ml-4" primary>
+      Clear <Arrow />
+    </Button>
+
+  </div>
+</article>
 
       <div className={styles.items}>
         <article>
