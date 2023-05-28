@@ -74,12 +74,13 @@ const PrimarySection: FC = () => {
         </article>
       </div>
    
-    <motion.section
-      initial={{ translateY: "200px", opacity: 0 }}
-      whileInView={{ translateY: "0px", opacity: 1 }}
-      viewport={{ once: true }}
-      className={styles.section}
-    >
+   <div>
+  <motion.section
+    initial={{ translateY: "200px", opacity: 0 }}
+    whileInView={{ translateY: "0px", opacity: 1 }}
+    viewport={{ once: true }}
+    className={styles.section}
+  >
       
       <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h2 className="text-center">AI Content Detector and Its Use</h2>
@@ -91,6 +92,7 @@ AI text detectors have come as an aid in detecting AI-generated content. With th
   </p>
  
 </article>
+      </motion.section>
         </div>
 
       
