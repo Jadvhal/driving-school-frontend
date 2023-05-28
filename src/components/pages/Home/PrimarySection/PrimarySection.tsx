@@ -44,9 +44,20 @@ const PrimarySection: FC = () => {
         Detect Text <Arrow />
       </Button>
     </Link>
-    <Button className="bg-gray-400 text-gray-800 ml-4" primary>
-      Clear <Arrow />
-    </Button>
+    
+    <Button
+  className="bg-gray-400 text-gray-800 ml-4"
+  primary
+  onClick={() => {
+    const textarea = document.querySelector('.textarea'); // Replace '.textarea' with the appropriate class or ID of your textarea element
+    if (textarea) {
+      textarea.value = '';
+    }
+  }}
+>
+  Clear <Arrow />
+</Button>
+
   </div>
 </article>
 
