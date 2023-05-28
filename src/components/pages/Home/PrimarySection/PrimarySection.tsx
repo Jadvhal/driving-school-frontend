@@ -36,6 +36,7 @@ const PrimarySection: FC = () => {
 <textarea
   className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
   style={{ height: "300px" }}
+  placeholder="Enter your document text here"
 ></textarea>
   <div className="flex justify-between mt-4">
     <Link href="/#form" scroll={false}>
