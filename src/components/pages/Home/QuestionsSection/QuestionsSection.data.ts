@@ -41,11 +41,4 @@ export const data: Question[] = [
       "You are a company, a university or educational institution, an organization, a writing or content creation agency, ... Contact us via email using this link to discuss in detail about your needs and how we can integrate ZeroGPT into your organization. We provide access to our private API through our Paid Professional plans customized based on our clients' needs.",
     isOpen: false
   }
-   {
-    id: 6,
-    title: "Does ZeroGPT work with different languages ?",
-    description:
-      "ZeroGPT has a worldwide usage with multilingual users. It detects AI text output in all the available languages.",
-    isOpen: false
-  }
 ];
