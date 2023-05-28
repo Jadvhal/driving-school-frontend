@@ -28,7 +28,7 @@ const PrimarySection: FC = () => {
       className={styles.section}
     >
       <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
-  <h1 className="text-center">GPT-4 & ChatGPT AI Content Detector - Detect OpenAI Text</h1>
+  <h1 className="text-center">ChatGPT AI Content Detector</h1>
   <p className="text-center">
 Add some text
   </p>
