@@ -64,23 +64,23 @@ const PrimarySection: FC = () => {
       <div className={styles.items}>
         <article>
           <Image src={chart} alt="График" />
-          <h4>График</h4>
-          <p>Подстраивающийся под вас</p>
+          <h4>Human</h4>
+          <p>Human-Written</p>
         </article>
         <article>
           <Image src={fleet} alt="Автопарк" />
-          <h4>Автопарк</h4>
-          <p>Ежегодно обновляется</p>
+          <h4>AI-Generated‍</h4>
+          <p>AI-Generated‍</p>
         </article>
         <article>
           <Image src={instructor} alt="Инструктора" />
-          <h4>Инструктора</h4>
-          <p>С опытом не менее 5 лет</p>
+          <h4>Bard</h4>
+          <p>Bard-Generated‍</p>
         </article>
         <article>
           <Image src={discount} alt="Рассрочка и скидки" />
-          <h4>Рассрочка и скидки</h4>
-          <p>На 12 м. и скидки студентам</p>
+          <h4>Mixed</h4>
+          <p>Mixed-Written</p>
         </article>
       </div>
       <Swiper
