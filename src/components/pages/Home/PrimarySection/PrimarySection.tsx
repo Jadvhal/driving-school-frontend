@@ -74,8 +74,6 @@ const PrimarySection: FC = () => {
         </article>
       </div>
    
-const PrimarySection: FC = () => {
-  return (
     <motion.section
       initial={{ translateY: "200px", opacity: 0 }}
       whileInView={{ translateY: "0px", opacity: 1 }}
