@@ -34,7 +34,7 @@ const PrimarySection: FC = () => {
     Add some text
   </p>
 <textarea
-  className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
+  className="w-full p-30 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
   style={{ height: "300px" }}
   placeholder="Enter your document text here"
 ></textarea>
