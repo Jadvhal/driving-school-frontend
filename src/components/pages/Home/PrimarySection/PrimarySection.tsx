@@ -27,6 +27,7 @@ const PrimarySection: FC = () => {
       viewport={{ once: true }}
       className={styles.section}
     >
+      
 <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h1 className="text-center">ChatGPT AI Content Detector</h1>
   <p className="text-center">
@@ -39,11 +40,12 @@ const PrimarySection: FC = () => {
         Detect Text <Arrow />
       </Button>
     </Link>
-    <Button className="bg-gray-300 ml-4" primary>
+    <Button className="bg-gray-400 text-gray-800 ml-4" primary>
       Clear <Arrow />
     </Button>
   </div>
 </article>
+
 
       <div className={styles.items}>
         <article>
