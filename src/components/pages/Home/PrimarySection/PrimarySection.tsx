@@ -61,12 +61,38 @@ const PrimarySection: FC = () => {
   </div>
 </article>
       
-      <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+<article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h1 className="text-center">ChatGPT AI Content Detector</h1>
   <p className="text-center">
     Add some text
   </p>
-        </article>
+<textarea
+  className="w-full p-30 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
+  style={{ height: "300px" }}
+  placeholder="Enter your document text here"
+></textarea>
+  <div className="flex justify-between mt-4">
+    <Link href="/#form" scroll={false}>
+      <Button primary>
+        Detect Text <Arrow />
+      </Button>
+    </Link>
+    
+    <Button
+  className="bg-gray-400 text-gray-800 ml-4"
+  primary
+  onClick={() => {
+    const textarea = document.querySelector('.textarea'); // Replace '.textarea' with the appropriate class or ID of your textarea element
+    if (textarea) {
+      textarea.value = '';
+    }
+  }}
+>
+  Clear <Arrow />
+</Button>
+
+  </div>
+</article>
 
 
       <div className={styles.items}>
