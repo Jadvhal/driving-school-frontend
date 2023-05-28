@@ -82,7 +82,7 @@ const PrimarySection: FC = () => {
     viewport={{ once: true }}
     className={styles.section}
   >
-    <article className={`${styles.majorArticle} flex flex-col items-center justify-center`} style={{ marginTop: "20px" }}>
+    <article className={`${styles.majorArticle}`} style={{ marginTop: "20px" }}>
       <h2 className="text-center">AI Content Detector and Its Use</h2>
 
       <p>
