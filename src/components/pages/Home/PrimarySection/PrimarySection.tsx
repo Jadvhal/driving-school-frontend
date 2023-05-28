@@ -73,13 +73,7 @@ const PrimarySection: FC = () => {
           <p>Mixed-Written</p>
         </article>
       </div>
-      
-       <motion.section
-      initial={{ translateY: "200px", opacity: 0 }}
-      whileInView={{ translateY: "0px", opacity: 1 }}
-      viewport={{ once: true }}
-      className={styles.section}
-    > 
+     
          
       <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h2 className="text-center">AI Content Detector and Its Use</h2>
