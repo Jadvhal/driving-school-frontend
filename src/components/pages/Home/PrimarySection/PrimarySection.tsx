@@ -27,10 +27,10 @@ const PrimarySection: FC = () => {
       viewport={{ once: true }}
       className={styles.section}
     >
-      <article className={styles.majorArticle}>
-  <h1>Learn to Drive in Just 3 Months</h1>
-  <p>
-    Learn to drive in just 3 months. We provide high-quality driving lessons since 2000 and graduate over 450 students per month.
+      <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+  <h1 className="text-center">GPT-4 & ChatGPT AI Content Detector - Detect OpenAI Text</h1>
+  <p className="text-center">
+Add some text
   </p>
   <textarea className="w-full h-40 p-4 border border-gray-300 rounded resize-none text-sm"></textarea>
         <Link href="/#form" scroll={false}>
