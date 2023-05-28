@@ -82,7 +82,7 @@ const PrimarySection: FC = () => {
     viewport={{ once: true }}
     className={styles.section}
   >
-    <article className={`${styles.majorArticle}`} style={{ marginTop: "20px" }}>
+    <article style={{ marginTop: "20px" }}>
       <h2 className="text-center">AI Content Detector and Its Use</h2>
 
       <p className="w-full">
@@ -93,6 +93,7 @@ const PrimarySection: FC = () => {
     </article>
   </motion.section>
 </div>
+
 
 
 
