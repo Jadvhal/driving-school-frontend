@@ -30,9 +30,7 @@ const PrimarySection: FC = () => {
       
 <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h1 className="text-center">ChatGPT AI Content Detector</h1>
-  <p className="text-center">
-    Add some text
-  </p>
+
 <textarea
   className="w-full p-30 border border-blue-900 rounded resize-none text-sm bg-blur-gradient shadow-lg"
   style={{ height: "300px" }}
