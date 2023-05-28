@@ -37,6 +37,9 @@ Add some text
           <Button primary>
             Detect Text <Arrow />
           </Button>
+           <Button primary>
+            Clear <Arrow />
+          </Button>
         </Link>
       </article>
       <div className={styles.items}>
