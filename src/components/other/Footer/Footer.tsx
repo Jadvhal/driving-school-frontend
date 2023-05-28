@@ -12,17 +12,17 @@ const Footer: FC = () => {
         <ul>
           <li>
             <Link href="/#categories" scroll={false}>
-              Тарифы и цены
+              Privacy Policy
             </Link>
           </li>
           <li>
             <Link href="/#form" scroll={false}>
-              Заявка на обучение
+              Terms of Use
             </Link>
           </li>
           <li>
             <Link href="/contacts/#header" scroll={false}>
-              Контакты
+              Contact
             </Link>
           </li>
         </ul>
