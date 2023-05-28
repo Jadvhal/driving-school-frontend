@@ -8,37 +8,44 @@ export interface Question {
 export const data: Question[] = [
   {
     id: 1,
-    title: "Как получить налоговый вычет",
+    title: "Does my data get stored by ZeroGPT ?",
     description:
-      "Чтобы вернуть часть денег за обучение в автошколе, необходимо иметь постоянную регистрацию и официальное трудоустройство. Подробнее можно уточнить в Федеральной налоговой службе.",
+      "No, none of the data posted on the site for detection is stored after the results are received. Our tool is designed to process and analyze the content in real-time. Thus, once the results are obtained, no data is stored in our system. Thus, you can stay assured that your information stays safe and secure, as your privacy and data security are of utmost importance to us.",
     isOpen: false
   },
   {
     id: 2,
-    title: "Сколько раз в неделю проходят занятия",
+    title: "Can ZeroGPT Work with Different Languages ?",
     description:
-      "Учебный график подбирается индивидуально от потребностей ученика.",
+      "Yes, ZeroGPT can work with different languages. This tool is designed to support worldwide usage. Thus, it can provide accurate text detection results for multiple languages.",
     isOpen: false
   },
   {
     id: 3,
-    title: "Где оформить медицинскую справку?",
+    title: "Does ZeroGPT only detect ChatGPT ?",
     description:
-      "Чтобы оформить справку для получения или замены водительских прав, вам нужно будет пройти обследование врачом-психиатром-наркологом и врачом-психиатром в наркологических и психоневрологических диспансерах города проживания.",
+      "No, ZeroGPT is a versatile tool that can detect results from other AI models as well. For instance, ZeroGPT works accurately and precisely for GPT-4, GPT-3, GPT-2, LLaMA, Google Bard, Jasper AI, Copy.AI or other AI services based on these models.",
     isOpen: false
   },
   {
     id: 4,
-    title: "Кому запрещено водить автомобиль?",
+    title: "Will my text get plagiarized or be available online, if I check it on ZeroGPT ?",
     description:
-      "Вождению припятствуют шизофрения, аффективные расстройства, умственная отсталось, эпилепсия, слепота обоих глаз.",
+      "The Privacy of our users is our top concern. When you input and check your tet on ZeroGPT, your text will not be saved or available online. And we will not use your text to train our AI detection model.",
     isOpen: false
   },
   {
     id: 5,
-    title: "Сколько стоит пересдать экзамен в автошколе? ",
+    title: "How can I integrate ZeroGPT tool in my organization or website on a large scale ?",
     description:
-      "Стоимость пересдачи экзамена варируется в зависимости от категории. Цена не превышает 4 000 рублей.",
+      "You are a company, a university or educational institution, an organization, a writing or content creation agency, ... Contact us via email using this link to discuss in detail about your needs and how we can integrate ZeroGPT into your organization. We provide access to our private API through our Paid Professional plans customized based on our clients' needs.",
+    isOpen: false
+  }
+   {
+    id: 6,
+    title: "Does ZeroGPT work with different languages ?",
+    description:
+      "ZeroGPT has a worldwide usage with multilingual users. It detects AI text output in all the available languages.",
     isOpen: false
   }
 ];
