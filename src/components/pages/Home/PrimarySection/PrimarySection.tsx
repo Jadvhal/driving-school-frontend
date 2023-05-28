@@ -60,6 +60,14 @@ const PrimarySection: FC = () => {
 
   </div>
 </article>
+      
+      <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+  <h1 className="text-center">ChatGPT AI Content Detector</h1>
+  <p className="text-center">
+    Add some text
+  </p>
+        </article>
+
 
       <div className={styles.items}>
         <article>
