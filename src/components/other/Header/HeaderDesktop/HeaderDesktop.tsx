@@ -44,7 +44,7 @@ const HeaderDesktop: FC<Props> = ({ setIsModalShow }) => {
               </Link>
             </li>
             <li>
-              <Link href="/contacts#header">Контакты</Link>
+              <Link href="/contacts#header">Contact</Link>
             </li>
           </ul>
         </nav>
