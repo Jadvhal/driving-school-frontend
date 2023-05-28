@@ -28,38 +28,23 @@ const PrimarySection: FC = () => {
       className={styles.section}
     >
       
-    <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
-      <h1 className="text-center">ChatGPT AI Content Detector</h1>
-      <p className="text-center">
-        Add some text
-      </p>
-      <textarea
-        className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg"
-        style={{ height: "300px" }}
-        value={text}
-        onChange={handleChange}
-      ></textarea>
-      {text === '' && (
-        <div
-          className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none"
-          style={{ zIndex: -1 }}
-        >
-          <span className="text-gray-400">Add some text</span>
-        </div>
-      )}
-      <div className="flex justify-between mt-4">
-        <Link href="/#form" scroll={false}>
-          <Button primary>
-            Detect Text <Arrow />
-          </Button>
-        </Link>
-        <Button className="bg-gray-400 text-gray-800 ml-4" primary>
-          Clear <Arrow />
-        </Button>
-      </div>
-    </article>
-
-
+<article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+  <h1 className="text-center">ChatGPT AI Content Detector</h1>
+  <p className="text-center">
+    Add some text
+  </p>
+  <textarea className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg" style={{ height: "300px" }}></textarea>
+  <div className="flex justify-between mt-4">
+    <Link href="/#form" scroll={false}>
+      <Button primary>
+        Detect Text <Arrow />
+      </Button>
+    </Link>
+    <Button className="bg-gray-400 text-gray-800 ml-4" primary>
+      Clear <Arrow />
+    </Button>
+  </div>
+</article>
 
       <div className={styles.items}>
         <article>
