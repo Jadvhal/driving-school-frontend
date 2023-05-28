@@ -79,7 +79,7 @@ const PrimarySection: FC = () => {
     <article className={`${styles.majorArticle}`} style={{ marginTop: "20px" }}>
       <h2 className="text-center">AI Content Detector and Its Use</h2>
 
-      <p className="w-full" style={{ maxWidth: "100%", margin: "0 auto" }}>
+      <p className="w-full" style={{ maxWidth: "300%", margin: "10 auto" }}>
         Recent years have witnessed more and more AI-generated content in social media, marketing, and academic fields. This has led to the questioning of the authenticity and originality of the produced or published content. As a result, creativity, innovation, and dedication to one’s work are slowly losing their importance. This not just degrades the brand’s or institution’s image but also provokes judgment on the individual’s capabilities.
 
         AI text detectors have come as an aid in detecting AI-generated content. With the use of algorithms, this software helps in the segregation of plagiarized content from original content. AI text detectors have proved their worth and importance for publishers and content marketing professionals. Using this software, they can easily prove or disprove the genuinity of an individual’s work.
