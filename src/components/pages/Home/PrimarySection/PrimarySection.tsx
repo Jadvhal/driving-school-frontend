@@ -32,7 +32,7 @@ const PrimarySection: FC = () => {
   <p className="text-center">
 Add some text
   </p>
-<textarea className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg" style={{ height: "600px" }}></textarea>
+<textarea className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg" style={{ height: "300px" }}></textarea>
         <Link href="/#form" scroll={false}>
           <Button primary>
             Detect Text <Arrow />
