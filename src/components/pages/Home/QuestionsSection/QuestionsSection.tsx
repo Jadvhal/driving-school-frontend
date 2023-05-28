@@ -25,7 +25,7 @@ const QuestionsSection: FC = () => {
       viewport={{ once: true }}
       className={styles.section}
     >
-      <Heading>Ответы на вопросы</Heading>
+      <Heading>Frequently Asked Questions About ZeroGPT.cc</Heading>
       <div className={styles.questions}>
         {questions.map((question) => (
           <article key={question.id}>
