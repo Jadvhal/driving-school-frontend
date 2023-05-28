@@ -35,10 +35,9 @@ const PrimarySection: FC = () => {
   <textarea className="w-full h-40 p-4 border border-gray-300 rounded resize-none text-sm"></textarea>
         <Link href="/#form" scroll={false}>
           <Button primary>
-            Записаться <Arrow />
+            Detect Text <Arrow />
           </Button>
         </Link>
-        <Image src={car} alt="Картинка машины" />
       </article>
       <div className={styles.items}>
         <article>
