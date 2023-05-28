@@ -28,11 +28,11 @@ const PrimarySection: FC = () => {
       className={styles.section}
     >
       <article className={styles.majorArticle}>
-        <h1>Научитесь водить уже через 3 месяца</h1>
-        <p>
-          Научитесь водить уже через 3 месяца. Предостовляем высококачественные
-          уроки вождения с 2000 года и выпускаем более 450 студентов в месяц.
-        </p>
+  <h1>Learn to Drive in Just 3 Months</h1>
+  <p>
+    Learn to drive in just 3 months. We provide high-quality driving lessons since 2000 and graduate over 450 students per month.
+  </p>
+  <textarea></textarea>
         <Link href="/#form" scroll={false}>
           <Button primary>
             Записаться <Arrow />
