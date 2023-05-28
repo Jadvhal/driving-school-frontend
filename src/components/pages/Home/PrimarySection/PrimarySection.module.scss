@@ -16,7 +16,7 @@
       @apply px-10 py-3 mt-6 gap-2;
     }
     
-    .bg-blur-gradient {
+   .bg-blur-gradient {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
@@ -24,7 +24,9 @@
     rgba(255, 255, 255, 0) 100%
   );
   backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 }
+
 
 
     img {
