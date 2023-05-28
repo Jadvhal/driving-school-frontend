@@ -73,7 +73,8 @@ const PrimarySection: FC = () => {
           <p>Mixed-Written</p>
         </article>
       </div>
-     
+   
+            <div className={styles.items}>
          
       <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h2 className="text-center">AI Content Detector and Its Use</h2>
@@ -85,6 +86,8 @@ AI text detectors have come as an aid in detecting AI-generated content. With th
   </p>
  
 </article>
+        </div>
+
       
       <Swiper
         slidesPerView={"auto"}
