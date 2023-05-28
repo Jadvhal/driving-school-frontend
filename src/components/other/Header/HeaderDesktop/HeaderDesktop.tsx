@@ -30,12 +30,17 @@ const HeaderDesktop: FC<Props> = ({ setIsModalShow }) => {
           <ul>
             <li>
               <Link href="/#categories" scroll={false}>
-                Тарифы и цены
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/#categories" scroll={false}>
+                Privacy Policy
               </Link>
             </li>
             <li>
               <Link href="/#form" scroll={false}>
-                Заявка на обучение
+                Terms of Use
               </Link>
             </li>
             <li>
