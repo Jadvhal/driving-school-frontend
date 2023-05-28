@@ -32,7 +32,7 @@ const PrimarySection: FC = () => {
   <p>
     Learn to drive in just 3 months. We provide high-quality driving lessons since 2000 and graduate over 450 students per month.
   </p>
-  <textarea></textarea>
+  <textarea className={styles.customTextarea}></textarea>
         <Link href="/#form" scroll={false}>
           <Button primary>
             Записаться <Arrow />
