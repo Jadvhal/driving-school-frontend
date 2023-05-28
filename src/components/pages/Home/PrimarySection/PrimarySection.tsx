@@ -27,21 +27,23 @@ const PrimarySection: FC = () => {
       viewport={{ once: true }}
       className={styles.section}
     >
-      <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
+    <article className={`${styles.majorArticle} flex flex-col items-center justify-center`}>
   <h1 className="text-center">ChatGPT AI Content Detector</h1>
   <p className="text-center">
-Add some text
+    Add some text
   </p>
-<textarea className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg" style={{ height: "300px" }}></textarea>
-        <Link href="/#form" scroll={false}>
-          <Button primary>
-            Detect Text <Arrow />
-          </Button>
-           <Button primary>
-            Clear <Arrow />
-          </Button>
-        </Link>
-      </article>
+  <textarea className="w-full p-10 border border-blue-900 rounded resize-none text-sm bg-blur shadow-lg" style={{ height: "300px" }}></textarea>
+  <div className="flex justify-between mt-4">
+    <Link href="/#form" scroll={false}>
+      <Button primary>
+        Detect Text <Arrow />
+      </Button>
+    </Link>
+    <Button className="bg-gray-300" primary>
+      Clear <Arrow />
+    </Button>
+  </div>
+</article>
       <div className={styles.items}>
         <article>
           <Image src={chart} alt="График" />
